@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="7dp"
+    android:padding="10dp"
+    android:layout_marginLeft="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Country"
+            android:id="@+id/name"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Capital"
+            android:id="@+id/capital"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Region"
+            android:id="@+id/region"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="SubRegion"
+            android:id="@+id/subregion"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Population"
+            android:id="@+id/population"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Borders"
+            android:id="@+id/borders"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Languages"
+            android:id="@+id/languages"
+            android:layout_height="match_parent"
+            />
+
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
